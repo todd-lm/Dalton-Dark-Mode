@@ -1,0 +1,25 @@
+{
+  "short_name": "Dalton Dark Mode",
+  "name": "Dalton Dark Mode",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "",
+    "48": "",
+    "128": ""
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+
+    "https://signin.blackbaud.com/*",
+    "https://dalton.myschoolapp.com/*"
+  ],
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Dalton Dark Mode"
+  },
+  "version": "0.1"
+}

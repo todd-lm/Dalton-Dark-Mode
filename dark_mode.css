@@ -1,0 +1,141 @@
+:root {
+  --background-color: #121212;
+  --text-color: #abb2bf;
+  --accent-color: #0b1959;
+  --header-color: #787878;
+  --button-color: #e3e3e3;
+}
+
+/* --background-color: #282c34;
+--text-color: #abb2bf; */
+
+
+/*Text Color*/
+h1,
+h2,
+h3,
+h4,
+time,
+blockquote,
+b,
+.desc,
+.hidden-lg text-center bb-section-heading,
+tr,
+.h1-spacing center sky-page-heading,
+#date-display-label,
+.bb-tile-content,
+.title,
+.black-fgc,
+.sky-nav
+{
+  color: var(--text-color) !important;
+  
+}
+
+a,
+.markup--anchor,
+.markup--p-anchor {
+  color: #61afef !important;
+}
+
+/*Accent Color*/
+
+
+
+.app-style,
+#app-style,
+.pri-100-bgc
+.site-header-nav sky-nav,
+#site-user-nav,
+#site-header-bottom,
+#site-nav-bottom,
+#site-nav-lower,
+.site-main-wrap
+
+{
+  background-color: #0b1959 !important;
+  color:#0b1959 !important;
+}
+
+/* Black Background */
+#site-header-container,
+.metabar,
+.u-clearfix,
+.js-metabar,
+.is-hiddenWhenMinimized, 
+.site-main-wrap,
+.site-top-spacer,
+.assignment-center-assignment-items,
+.btn btn-default btn-sm btnCal dropdown-toggle,
+.bb-tile-header,
+.bb-tile,
+.sec-15-bgc,
+.container,
+.sec-50-bgc,
+.row,
+#topnav-containter,
+.onelineparentitemfirst,
+div,
+.assignment-center-list-view,
+.assignment-center-layout-container,
+.assignment-list-title-cell,
+td,
+.subnavbar subnavbar-fixed visible-desktop hidden-sm hidden-xs,
+#site-nav-container,
+#assignment-center-content-view,
+.container,
+.oneline parentitem  first,
+.subnavtrigger 
+#site-nav-lower,
+body,
+.subnavtrigger
+.black-fgc,
+.oneline,
+.parentitem
+{
+  background-color: var(--background-color) !important;
+}
+
+/*Button Colors*/
+span,
+.desc,
+.first,
+btnbtn-smbtn-defaultpull-rightassignment-calendar-view {
+  color: whitesmoke;
+}
+
+/*Header Color*/
+
+.add-existing-items-header
+{
+  background-color: var(--header-color);
+}
+
+/*Text*/
+h1,
+h2,
+h3,
+h4,
+time,
+blockquote,
+b,
+.desc,
+.hidden-lg text-center bb-section-heading,
+tr,
+.h1-spacing center sky-page-heading,
+#date-display-label,
+.bb-tile-content,
+.title,
+.sec-25-bgc-hover,
+.span
+{
+  color: var(--text-color) !important;
+  
+}
+
+
+.label,
+.label-warning,
+.primary-status {
+  color: white;
+}
