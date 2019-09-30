@@ -91,7 +91,8 @@ body,
 .subnavtrigger
 .black-fgc,
 .oneline,
-.parentitem
+.parentitem,
+.myday-nav res-container clearfix hidden-xs hidden-sm visible-desktop
 {
   background-color: var(--background-color) !important;
 }
