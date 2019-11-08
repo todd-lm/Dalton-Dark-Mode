@@ -3,7 +3,9 @@
   --text-color: #abb2bf;
   --accent-color: #0b1959;
   --header-color: #787878;
-  --button-color: #e3e3e3;
+  --button-color: #555555;
+  --link-color: #61afef;
+  --input-color: #a7a7a7;
 }
 
 /* --background-color: #282c34;
@@ -26,16 +28,21 @@ tr,
 .bb-tile-content,
 .title,
 .black-fgc,
-.sky-nav
+.sky-nav,
+.control-label,
+td.tblcell,
+tbody
 {
   color: var(--text-color) !important;
   
 }
 
+/*Link Color*/
 a,
 .markup--anchor,
-.markup--p-anchor {
-  color: #61afef !important;
+.markup--p-anchor,
+.btn-link {
+  color: var(--link-color) !important;
 }
 
 /*Accent Color*/
@@ -49,8 +56,8 @@ a,
 #site-user-nav,
 #site-header-bottom,
 #site-nav-bottom,
-#site-nav-lower,
-.site-main-wrap
+.site-main-wrap,
+.bb-tile-content
 
 {
   background-color: #0b1959 !important;
@@ -66,7 +73,6 @@ a,
 .site-main-wrap,
 .site-top-spacer,
 .assignment-center-assignment-items,
-.btn btn-default btn-sm btnCal dropdown-toggle,
 .bb-tile-header,
 .bb-tile,
 .sec-15-bgc,
@@ -75,7 +81,6 @@ a,
 .row,
 #topnav-containter,
 .onelineparentitemfirst,
-div,
 .assignment-center-list-view,
 .assignment-center-layout-container,
 .assignment-list-title-cell,
@@ -92,7 +97,17 @@ body,
 .black-fgc,
 .oneline,
 .parentitem,
-.myday-nav res-container clearfix hidden-xs hidden-sm visible-desktop
+.myday-nav res-container clearfix hidden-xs hidden-sm visible-desktop,
+html,
+.pri-100-bgc,
+#site-login-box,
+#site-login,
+#site-login-logo,
+div,
+.nav,
+.nav-pills,
+#site-nav-lower,
+iframe
 {
   background-color: var(--background-color) !important;
 }
@@ -128,7 +143,10 @@ tr,
 .bb-tile-content,
 .title,
 .sec-25-bgc-hover,
-.span
+.span,
+.well-sm,
+p,
+button.btn.disabled 
 {
   color: var(--text-color) !important;
   
@@ -137,6 +155,75 @@ tr,
 
 .label,
 .label-warning,
-.primary-status {
-  color: white;
+.primary-status,
+select#gradeSelect.input-sm,
+a.btn.btn-default.btn-xs,
+.accordion-toggle,
+.sendmessage {
+  color: white !important;
+}
+
+/*Buttons that are links*/
+.active > a,
+.white-bgc,
+h5{
+  color: var(--background-color) !important;
+  
+}
+
+/*Change Assignment Status*/
+
+.assignment-status-update,
+div#BackButton.btn.btn-link
+
+
+{
+  color: var(--link-color) !important;
+  
+}
+
+/*Assignment center buttons*/
+
+/*btn btn-sm btn-default assignmentDisplayTypeFilter */
+.btnCal,
+.assignmentDisplayTypeFilter,
+.btn-default,
+.btn-sm,
+button,
+a#modal-toggle.thumbnail
+
+{
+  background-color: var(--button-color)! important;
+  color: var(--button-color);
+
+}
+
+/*input/select background color*/
+
+input,
+select
+ {
+  background-color: var(--input-color)!important;
+}
+/* Fix Links w/ grey background */
+.btn-link,
+button.btn.disabled,
+button.fa.fa-chevron-up.bb-tile-chevron,
+button.fa.fa-chevron-down.bb-tile-chevron,
+li.oneline.parentitem.first,
+div.subnav.sec-75-bordercolor.white-bgc.sky-nav.nav.visible
+
+{ 
+background-color: var(--background-color)!important;
+
+}
+
+button.btn.btn-link {
+  color: var(--link-color)!important;
+}
+
+div.subnav.sec-75-bordercolor.white-bgc.sky-nav.nav.visible,
+ul,
+ul.first {
+  color: var(--background-color)!important;
 }
